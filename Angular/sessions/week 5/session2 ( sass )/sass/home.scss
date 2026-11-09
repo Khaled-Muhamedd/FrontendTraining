@@ -1,0 +1,54 @@
+@use'_var.scss';
+
+// extending
+
+
+// %extended_compo{
+// color:beige;
+// font-size:20px;
+// padding:20px;
+// margin:20px;
+// border-radius:10px;
+// }
+
+// .home{
+//     @extend %extended_compo;
+// }
+// .contact{
+//     @extend %extended_compo;
+// }
+
+
+// mixins
+@mixin mixin_compo($padding:10px , $margin:10px, $background-color:#f3f4f6, $text-color:#000000, $border-radius:10px){
+    padding: $padding;
+    margin: $margin;
+    background-color: $bgcolor;
+    color: $fontcolor;
+    border-radius: $borderradius;
+}
+
+.home{
+    @include mixin_compo(30px,20px,#9afab5,#000000,20px);
+}
+.contact{
+    @include mixin_compo(40px,30px,#9afab5,#000000,50px);
+}
+// h2{
+//     color:red;
+//     background-color: brown;
+//     font-size: 40px;
+//     text-align: center;
+// }
+// table{
+//     text-align: center;
+//     margin: auto;
+//     padding: 30px;
+//     background-color: rgb(154, 250, 181);
+//     border-radius: 10px;
+//     color: rgb(0, 0, 0);
+//     width: 50%;
+//     thead{
+//         background-color: rgb(171, 231, 160);
+//     }
+// }

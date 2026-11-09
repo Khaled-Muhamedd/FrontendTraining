@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmarker</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/main.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Title -->
+        <h1><span>Bookmarker</span></h1>
+
+        <!-- Subheader -->
+        <div class="bookmark-header">
+            <i class="fa-solid fa-bookmark"></i>
+            Bookmark your favorite sites
+            <i class="fa-solid fa-bookmark"></i>
+        </div>
+
+        <!-- Form -->
+        <div class="form-section">
+            <div class="mb-3">
+                <label class="form-label fw-bold">
+                    <i class="fa-solid fa-floppy-disk"></i> Site Name
+                </label>
+                <input type="text" class="form-control" placeholder="Bookmark Name" / id="sitename">
+            </div>
+            <div class="mb-3">
+                <label class="form-label fw-bold">
+                    <i class="fa-solid fa-link"></i> Site URL
+                </label>
+                <input type="text" class="form-control" placeholder="Website URL" / id="siteurl">
+            </div>
+            <button class="btn btn-submit d-block mx-auto px-4" id="submit">Submit</button>
+        </div>
+
+        <!-- Table -->
+        <div class="table-section mt-4">
+            <table class="table table-striped text-center">
+                <thead>
+                    <tr>
+                        <th>Index</th>
+                        <th>Website Name</th>
+                        <th>Visit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="Tbody">
+                     
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+        <!-- js -->
+         <script src="../js/main.js"></script>
+</body>
+
+</html>

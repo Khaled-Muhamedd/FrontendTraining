@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./style.css/sty.css">
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+  <!-- font awsome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- google fonts -->
+  <!--Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+
+  <!--  source sans pro -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="main">
+    <header id="Home">
+
+      <!-- carousel -->
+      <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active slide-one">
+            <img src="./Bezel _ Creative Multi-Purpose HTML Template/bg-image-28.jpg" class="d-block w-100 vh-100"
+              alt="Slide 1">
+            <div class="carousel-caption text-center align">
+              <h1 class="fade-text">Get Awesome.</h1>
+              <p class="fade-text">We are an innovative company making digital stuff.</p>
+              <a href="#" class="btn btn-info text-white" class="read_more">Read More</a>
+              <a href="#" class="btn btn-outline-light" class="contact">Contact</a>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item slide-two">
+            <img src="./Bezel _ Creative Multi-Purpose HTML Template/bg-image-29.jpg" class="d-block w-100 vh-100"
+              alt="Slide 2">
+            <div class="carousel-caption text-center ">
+              <h1 class="fade-text">Create with bazle.</h1>
+              <p class="fade-text">we help ambitious companies create new value.</p>
+              <a href="#" class="btn btn-info text-white " class="fade-text">Hire Us</a>
+              <a href="#" class="btn btn-outline-light" class="fade-text">Services</a>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+
+        <!-- ----------------- -->
+        <!-- start nav -->
+        <nav id="navbar" class="navbar navbar-expand-lg bg-transparent border border-1 fixed-top ">
+          <div class="container">
+            <a class="navbar-brand fs-2" href="#">
+              <div class="img"><img src="./Bezel _ Creative Multi-Purpose HTML Template/logo-light.png" alt=""></div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#Team">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#Services">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#Work">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#Pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#Contact">Contact</a>
+                </li>
+                <div class=" line"></div>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"><i
+                      class="fa-brands fa-facebook-f  text-light"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"><i
+                      class="fa-brands fa-twitter text-light"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"><i
+                      class="fa-brands fa-instagram text-light"></i></a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+      </div>
+      </nav>
+    </header>
+    <!-- end header -->
+
+    <!-- start section about -->
+    <section id="About" class="border-bottom pb-5">
+      <div class="container">
+        <div class="about-sec text-center ">
+          <div class="text text-center m-auto">
+            <h4>Who We Are</h4>
+            <p class="fs-5 fw-light fs-3-md fs-5-sm">We are an innovative company. We develop and design <span id="element"
+                class="text-info">software|</span>
+              costumers around the world. Our clients are some of the most forward-looking companies in the world.</p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end section 2 -->
+
+    <!-- section Teaam -->
+    <section id="Team" class="team w-100 mt-5 pb-5">
+      <div class="text text-center">
+        <h1 class="opacity-75">c</h1>
+        <h2>Creative Team</h2>
+        <p>We are digital thinkers</p>
+      </div>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col-xl-3">
+    <div class="card slide-top card1 position-relative   overflow-hidden">
+      <img src="./Bezel _ Creative Multi-Purpose HTML Template/team-1.jpg" class="card-img-top" alt="...">
+      <div class="layer d-flex flex-column justify-content-between">
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f text-white"></i>
+          <i class="fa-brands fa-twitter text-white"></i>
+          <i class="fa-brands fa-linkedin text-white"></i>
+        </div>
+        <div class="-text">
+          <h1 class="text-white">Luke Cage</h1>
+          <p class="text-white">Founder & CEO</p>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="col-xl-3">
+    <div class="card  slide-top card2 position-relative move overflow-hidden">
+      <img src="./Bezel _ Creative Multi-Purpose HTML Template/team-2.jpg" class="card-img-top" alt="...">
+      <div class="layer d-flex flex-column justify-content-between">
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f text-white"></i>
+          <i class="fa-brands fa-twitter text-white"></i>
+          <i class="fa-brands fa-linkedin text-white"></i>
+        </div>
+        <div class="-text">
+          <h1 class="text-white">Luke Cage</h1>
+          <p class="text-white">Founder & CEO</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-3">
+    <div class="card  slide-top card3 position-relative move overflow-hidden">
+      <img src="./Bezel _ Creative Multi-Purpose HTML Template/team-3.jpg" class="card-img-top" alt="...">
+      <div class="layer d-flex flex-column justify-content-between">
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f text-white"></i>
+          <i class="fa-brands fa-twitter text-white"></i>
+          <i class="fa-brands fa-linkedin text-white"></i>
+        </div>
+        <div class="-text">
+          <h1 class="text-white">Luke Cage</h1>
+          <p class="text-white">Founder & CEO</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-3">
+    <div class="card slide-top card4 position-relative move overflow-hidden">
+      <img src="./Bezel _ Creative Multi-Purpose HTML Template/team-4.jpg" class="card-img-top" alt="...">
+      <div class="layer d-flex flex-column justify-content-between">
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f text-white"></i>
+          <i class="fa-brands fa-twitter text-white"></i>
+          <i class="fa-brands fa-linkedin text-white"></i>
+        </div>
+        <div class="-text">
+          <h1 class="text-white">Luke Cage</h1>
+          <p class="text-white">Founder & CEO</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+
+    </section>
+    <!-- ------------ -->
+     
+     <!-- services -->
+ <section class="services" id="Services">
+  <div class="container px-4 pt-5 my-2">
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6 g-3 text-center">
+      <div class="col">
+        <h4>Stunning Design</h4>
+      </div>
+      <div class="col">
+        <h4>Time Saver</h4>
+      </div>
+      <div class="col">
+        <h4>Clean Code</h4>
+      </div>
+      <div class="col">
+        <h4>Customizable</h4>
+      </div>
+      <div class="col">
+        <h4>Perfect Layout</h4>
+      </div>
+      <div class="col">
+        <h4>Retina Ready</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-4 pt-5 mt-4">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="h-be text-center text-lg-start">What We Do.</h2>
+        <p class="text-center text-lg-start">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+          ipsam ullam incidunt itaque nemo omnis temporibus totam quibusdam repellat
+          vero, recusandae excepturi dignissimos velit et alias amet, quia facilis
+          perferendis.
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <div class="row">
+          <div class="col-6">
+            <ul class="check-list">
+              <li><i class="fa-regular fa-circle-check me-2"></i>Research</li>
+              <li><i class="fa-regular fa-circle-check me-2"></i>Opportunity Analysis</li>
+              <li><i class="fa-regular fa-circle-check me-2"></i>Consulting</li>
+              <li><i class="fa-regular fa-circle-check me-2"></i>Brand Planning</li>
+              <li><i class="fa-regular fa-circle-check me-2"></i>Customer Support</li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul class="check-list">
+              <li><i class="fa-regular fa-circle-check me-2"></i>Logo & Branding</li>
+              <li><i class="fa-regular fa-circle-check me-2"></i>Style guides</li>
+              <li><i class="fa-regular fa-circle-check me-2"></i>Motion graphics</li>
+              <li><i class="fa-regular fa-circle-check me-2"></i>UX/UI-design</li>
+              <li><i class="fa-regular fa-circle-check me-2"></i>Social media design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- pricing sec -->
+     <section id="Pricing" class=" pb-5 bg-body-secondary ">
+     <div class="text-tittle text-center ">
+        <h1 class="c-letter fw-bold opacity-25">c</h1>
+        <h2>Cheap Prices</h2>
+        <p>We Provide the best quality.</p>
+      </div>
+      <div class="container mt-5">
+       <div class="row"> 
+        <div class="col-xl-3 col-md-6 col-sm-12 ">
+          <div class="price-table bg-white p-5 rounded-2 shadow mt-4">
+            <h4>starter</h4>
+            <div class="price border-bottom">
+              <h2><span>$</span>9</h2>
+            </div>
+            <ul class="list-unstyled mt-5 ms-3">
+              <li><span>Unlimited Connection</span></li>
+              <br>
+              <li><span>24/7</span></li>
+              <br>
+              <li><span>FULL SSL Protection</span></li>
+              <br>
+              <li><span>Unlimited Chanelles</span></li>
+              <br>
+            </ul>
+          <button type="button" class="btn btn-info rounded-1 text-white px-2 py-2 ms-5">Sign Up</button>
+          </div>
+          
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+          <div class="price-table bg-white p-5 rounded-2 shadow  mt-4">
+            <h4>starter</h4>
+            <div class="price border-bottom">
+              <h2><span>$</span>9</h2>
+            </div>
+            <ul class="list-unstyled mt-5 ms-3">
+              <li><span>Unlimited Connection</span></li>
+              <br>
+              <li><span>24/7</span></li>
+              <br>
+              <li><span>FULL SSL Protection</span></li>
+              <br>
+              <li><span>Unlimited Chanelles</span></li>
+              <br>
+            </ul>
+          <button type="button" class="btn btn-info rounded-1 text-white px-2 py-2 ms-5">Sign Up</button>
+          </div>
+          
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+          <div class="price-table3 bg-white p-5 rounded-2 shadow  mt-5 ">
+            <h4>starter</h4>
+            <div class="price border-bottom">
+              <h2><span>$</span>9</h2>
+            </div>
+            <ul class="list-unstyled mt-5 ms-3">
+              <li><span>Unlimited Connection</span></li>
+              <br>
+              <li><span>24/7</span></li>
+              <br>
+              <li><span>FULL SSL Protection</span></li>
+              <br>
+              <li><span>Unlimited Chanelles</span></li>
+              <br>
+            </ul>
+          <button type="button" class="btn btn-info rounded-1 text-white px-2 py-2 ms-5">Sign Up</button>
+          </div>
+          
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+          <div class="price-table bg-white p-5 rounded-2 shadow  mt-4">
+            <h4>starter</h4>
+            <div class="price border-bottom">
+              <h2><span>$</span>9</h2>
+            </div>
+            <ul class="list-unstyled mt-5 ms-3">
+              <li><span>Unlimited Connection</span></li>
+              <br>
+              <li><span>24/7</span></li>
+              <br>
+              <li><span>FULL SSL Protection</span></li>
+              <br>
+              <li><span>Unlimited Chanelles</span></li>
+              <br>
+            </ul>
+          <button type="button" class="btn btn-info rounded-1 text-white px-2 py-2 ms-5">Sign Up</button>
+          </div>
+          
+        </div>
+       </div>
+      </div>
+     </section>
+    <!-- Work section -->
+
+    <section id="Work" class=" work  text-bg-light p-3 position-relative ">
+
+      <div id="carouselExampleIndicators" class="carousel my-auto slide position-absolute top-50 translate-middle-y ">
+        <div class="carousel-indicators mb-4">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-info"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"
+            class="bg-info "></button>
+        </div>
+        <div class="carousel-inner overflow-visible">
+          <div class="carousel-item active">
+
+            <!-- first testmonial -->
+            <div class="testmonial text-center bg-white w-50 m-auto shadow rounded-2">
+              <div class="image ">
+                <img src="./Bezel _ Creative Multi-Purpose HTML Template/testimonial-1.jpg" alt=""
+                  class="img-size rounded-circle translate-middle-y">
+              </div>
+              <div class="work-txt p-5">
+                <h4 class="fw-bold">Marrisa Mayer</h4>
+                <p class="text-secondary ">CEO, YAHOO</p>
+                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique eaque
+                  commodi deserunt rem corrupti,
+                  ullam voluptatem quos nemo amet et neque nisi itaque cum inventore quisquam mollitia. Ex, quis modi.
+                  Eum
+                  omnis totam quos, ducimus cumque, assumenda eos repudiandae molestias obcaecati harum sunt!
+                  Architecto,
+                  voluptates! Consectetur incidunt rerum distinctio aliquam?</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+
+            <!-- second testmonial -->
+            <div class="testmonial text-center bg-white w-50 m-auto shadow rounded-2">
+              <div class="image ">
+                <img src="./Bezel _ Creative Multi-Purpose HTML Template/testimonial-2.jpg" alt=""
+                  class="img-size rounded-circle translate-middle-y">
+              </div>
+              <div class="work-txt p-5 ">
+                <h4 class="fw-bold">Mark Zuckerburg</h4>
+                <p class="text-secondary">FOUNDER & CEO, FACEBOOK</p>
+                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique eaque
+                  commodi deserunt rem corrupti,
+                  ullam voluptatem quos nemo amet et neque nisi itaque cum inventore quisquam mollitia. Ex, quis modi.
+                  Eum
+                  omnis totam quos, ducimus cumque, assumenda eos repudiandae molestias obcaecati harum sunt!
+                  Architecto,
+                  voluptates! Consectetur incidunt rerum distinctio aliquam?</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev text-body-secondary" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- -------------------- -->
+         
+    <!-- Contact -->
+    <section id="Contact">
+      <div class="container-fluid  vh-100 position-relative">
+        <div class="row">
+          <div class="col-md-6 map-side">
+            <div class="map vh-100">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d96687.17438685!2d-73.9604313227539!3d40.77358799752107!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1747577353713!5m2!1sen!2sus"
+                width="100%" height="100%" border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" data-style="gray"></iframe>
+            </div>
+          </div>
+            <div class="col-md-5 col-sm-12">
+              <div class="form mt-5 ">
+                <div class="tittle pt-5">
+                <h1 class=" cletter opacity-25 fs-1 fw-bold position-relative start-50">c</h1>
+                <h2 data-bigletter="G" class="fw-bold text-center">get In Touch</h2>
+                <p class="text-center">Lets work together</p>
+
+                <!-- form -->
+                    <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Your Name</label>
+    <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text"></div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Your Email</label>
+    <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text"></div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Phone Nmber</label>
+    <input type="text" class="form-control rounded-0" id="exampleInputPassword1">
+  </div>
+   <div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Your Message </label>
+  <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+  <button type="submit" class="text-light buttn btn btn-info rounded-1 mt-4 px-4 py-3">Send Message</button>
+</form>
+              </div>
+              </div>
+           </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- bootstrap js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['software', 'designer', 'app'],
+      typeSpeed: 90,
+      loop: true
+    });
+  </script>
+
+  <!-- js -->
+   <script src="./js/script.js"></script>
+</body>
+
+</html>

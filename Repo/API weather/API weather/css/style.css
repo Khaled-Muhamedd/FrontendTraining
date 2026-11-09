@@ -1,0 +1,79 @@
+/* style.css */
+
+.body {
+  background-color: rgb(57, 57, 57);
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-box {
+  background-color:  rgb(57, 57, 57);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.form-control,
+.form-control:focus {
+  background-color: transparent;
+  border: 1px solid #555;
+  color: #fff;
+}
+
+.form-control::placeholder {
+  color: #888;
+}
+
+.btn-submit {
+  background-color: #00bfff;
+  border: none;
+  padding: 10px 25px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #888;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+
+.inputdiv {
+background-color:  rgb(57, 57, 57);;
+}
+.inputdiv .inputt{
+    background-color:  rgb(57, 57, 57);;
+}
+.inputdiv .inputt::placeholder {
+    color: rgb(163, 163, 163);
+}
+#input::placeholder {
+    color: rgb(163, 163, 163);
+}
+#input:hover{
+    border:solid 1px  #0dcaf0;
+}
+.navbar-nav .nav-link:hover {
+    border: 2px solid #0dcaf0;
+    border-radius: 50rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-shadow: 0 0 5px #0dcaf0;
+    color: #0dcaf0 !important
+}
+
+.navbar-nav .nav-link:focus {
+    border: 2px solid #0dcaf0;
+    border-radius: 50rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-shadow: 0 0 5px #0dcaf0;
+    color: #0dcaf0 !important;
+}
+
+.navul li a {
+    font-size: 12px;
+}
+#navbar{
+    background-color: rgb(57, 57, 57);
+}

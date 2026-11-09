@@ -1,0 +1,193 @@
+h1,h2,h3,h4,h5{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+#header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../images/home.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+} 
+/* media screen */
+@media screen and (min-width:1200px) {
+  .smalltext{
+  h1{
+    font-size: 70px;
+  }
+  p{
+    font-size: 50px;
+  }
+}
+.sec-ch{
+  p{
+    font-size: 20px;
+  }
+}
+}
+@media screen and (min-width:320px) {
+  /* about */
+  .identity-box{
+    img{
+      margin-bottom:20px ;
+    }
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* --------------- */
+  /* services */
+.services-box .box-content{
+   h2{
+    font-size:20px ;
+   }
+  }
+  .services-box{
+    i{
+      position: relative;
+      margin-left:-10px ;
+      margin-bottom: 20px;
+    }
+    
+  }
+}
+.navbar-scrolled {
+  background-color: white !important;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+/* ------------------- */
+/* caousel-section */
+.carousell-section{
+  background-image:linear-gradient(rgba(0, 98, 255, 0.700), rgba(0, 98, 255, 0.700)) ,url(../images/Screenshot\ 1\ \(7\).png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.identity2{
+  width: 200px;
+  height: 220px;
+}
+/* --end-carousel */
+.navbar{
+  transition: all 5s;
+}
+.arrow{
+
+  position: fixed;
+  bottom:40px ;
+  right:20px ;
+}
+/* about */
+.h1-about{
+  position: relative;
+}
+.h1-about::after{
+  content:"";
+  width:80px ;
+  height: 5px;
+  background-color: rgb(0, 98, 255);
+  position: absolute;
+  top:60px ;
+  left: 10px;
+}
+/* services */
+.h1txt::after{
+  position: absolute;
+  content:"";
+  width: 45px;
+  height: 5px;
+  background-color:rgb(0, 98, 255);
+  margin-left:-20px ;
+
+}
+
+.h1txt{
+  position: relative;
+  h1{
+    font-size: 70px;
+  }
+  p{
+    font-size: 18px;
+  }
+}
+.services-box{
+  background-color: white;
+  i{
+    border: 10px solid rgb(0, 98, 255);
+    transition: all .7s;
+    transition: all 2s;
+
+  }
+}
+.services-box:hover i{
+background-color:rgb(0, 98, 255);
+color: white;
+transform: rotateY(360deg);
+}
+/* ---------------------- */
+/* protfolio */
+.protfolio .card-box img{
+    transition:all 1s;
+
+}
+.protfolio .card-box:hover img {
+transform: scale(1.3);
+}
+/* -------------- */
+/* blue area */
+.bluearea{
+  min-height: 400px;
+  background-image:linear-gradient(rgba(0, 98, 255, 0.700), rgba(0, 98, 255, 0.700)) ,url(../images/Screenshot\ 1\ \(7\).png);
+  background-position: center;
+  background-size:90%;
+  background-attachment: fixed;
+}
+.icon-box{
+  i{
+    top: 30%;
+    padding: 0px;
+  }
+}
+/* ---------------- */
+/* blog */
+.txt-blog{
+  h1{
+    font-size: 60px;
+  }
+  p{
+    font-size: 18px;
+  }
+}
+.badge{
+  position: relative;
+  left: 37%;
+  bottom: 15px;
+}
+/* ------------------------- */
+/* contact */
+.contact{
+  background-image:linear-gradient(rgba(0, 98, 255, 0.700), rgba(0, 98, 255, 0.700)),url(../images/Screenshot\ 1\ \(7\).png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.contact .icons i:hover{
+background-color:rgb(0, 98, 255);
+color: white;
+}
+.contact .icons i{
+  transition: all 1s;
+}
+.h1-contact{
+  position: relative;
+}
+.h1-contact::after{
+position: absolute;
+content:"";
+width: 100px;
+height:5px;
+background-color:rgb(0, 98, 255);
+top: 60px;
+left: 40px;
+}

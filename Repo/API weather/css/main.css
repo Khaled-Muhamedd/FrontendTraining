@@ -1,0 +1,121 @@
+@media screen and (min-width:550px) {
+    .footer {
+        height: fit-content !important;
+
+        .input-group {
+            width: 100% ;
+        }
+    }
+
+    .inputdiv {
+        width: 100% !important;
+    }
+
+    .image {
+        height: fit-content !important;
+    }
+}
+
+.body {
+    background-color: rgb(27, 27, 27);
+}
+
+.Navbar {
+    height: 30%;
+}
+
+.parg {
+    font-size: 12px;
+}
+
+.navbar {
+    .icon {
+        position: relative;
+        top: 30px;
+
+        p {
+            position: relative;
+            top: -20px;
+            left: 40px;
+            color: rgb(188, 188, 188);
+        }
+    }
+}
+
+.navbar-nav .nav-link:hover {
+    border: 2px solid #0dcaf0;
+    border-radius: 50rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-shadow: 0 0 5px #0dcaf0;
+    color: #0dcaf0 !important
+}
+
+.navbar-nav .nav-link:focus {
+    border: 2px solid #0dcaf0;
+    border-radius: 50rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-shadow: 0 0 5px #0dcaf0;
+    color: #0dcaf0 !important;
+}
+
+.navul li a {
+    font-size: 12px;
+}
+
+.image {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../all-ecomm-image-city-view.avif);
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    height: fit-content;
+}
+
+.inputsearch {
+    color: white;
+}
+
+.card1,.card3{
+    background-color: rgb(57, 57, 57);
+
+   
+}
+
+.box2 {
+    .upper {
+        background-color: rgb(40, 40, 40);
+    }
+}
+
+.box3 {
+    background-color: rgb(57, 57, 57);
+
+    .upper {
+        background-color: rgb(50, 50, 50);
+    }
+}
+
+.inputdiv .inputt::placeholder {
+    color: rgb(163, 163, 163);
+}
+
+.h1box1 {
+    font-size: 60px;
+}
+
+.footer {
+    background-color: rgb(50, 50, 50);
+    ;
+}
+
+.icons {
+    position: relative;
+    right: 100px;
+}
+
+.icons i:hover {
+    background-color: #0dcaf0 !important;
+    color: white !important;
+    box-shadow: 0 0 #0dcaf0;
+}
